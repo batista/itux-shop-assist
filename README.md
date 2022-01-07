@@ -7,9 +7,11 @@
 [![Codacy Coverage](https://app.codacy.com/project/badge/Coverage/f9c3b4709ea64385b1096331dddb2787)](https://www.codacy.com/gh/batista/itux-shop-assist/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=batista/itux-shop-assist&amp;utm_campaign=Badge_Coverage)
 [![license MIT](https://img.shields.io/github/license/batista/itux-shop-assist)](https://github.com/batista/itux-shop-assist/blob/main/LICENSE)
 
-**NOTE: This CLI is targeted to users of [itux.se](https://www.itux.se) and [framtidensbredband.se](https://www.framtidensbredband.se) only.**
-
 If you are like me and is always trying to snatch the best campaign (I do it every time the previous campaign expires), but feel the filtering options provided to you are not the best, then this CLI helper tool is for you.
+
+<img src="./assets/itux-shop-assist--help.png" alt="Screenshot of the CLI with the help option" />
+
+**NOTE: This CLI is targeted to users of [itux.se](https://www.itux.se) and [framtidensbredband.se](https://www.framtidensbredband.se) only.**
 
 ## Usage
 
