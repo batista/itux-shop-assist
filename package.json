@@ -14,7 +14,8 @@
     "all": "npm run build && npm run format && npm run lint && npm test && npm run package",
     "start": "npm run build && node lib/main.js",
     "help": "npm run build && node lib/main.js --help",
-    "npx:local": "npm run all && npm install -g && npx . && npm uninstall -g"
+    "npx:local": "npm run all && npm install -g && npx . && npm uninstall -g",
+    "publish": "npm run all && npx np"
   },
   "author": {
     "name": "Sergio Batista",
