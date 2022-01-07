@@ -1,5 +1,7 @@
 # Itux / Framtidensbredband Shop Assistant CLI
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/274aa77033db4eafac5cf6f46ff9f50e)](https://app.codacy.com/gh/batista/itux-shop-assist?utm_source=github.com&utm_medium=referral&utm_content=batista/itux-shop-assist&utm_campaign=Badge_Grade_Settings)
+
 **NOTE: This CLI is targeted to users of [itux.se](https://www.itux.se) and [framtidensbredband.se](https://www.framtidensbredband.se) only.**
 
 If you are like me and is always trying to snatch the best campaign (I do it every time the previous campaign expires), but feel the filtering options provided to you are not the best, then this CLI helper tool is for you.
