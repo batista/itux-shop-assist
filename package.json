@@ -22,7 +22,8 @@
     "email": "dev@se.rg.io"
   },
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "assets/**/*"
   ],
   "repository": {
     "type": "git",

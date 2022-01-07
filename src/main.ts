@@ -40,27 +40,33 @@ const argv = yargs(process.argv.slice(2))
     },
     'min-download-speed': {
       alias: 'd',
-      description: '🔽  The minimum tolerated download speed.',
+      description: '🔽  The minimum tolerated download speed (Mb/s).',
       type: 'number',
       default: 100,
     },
     'min-upload-speed': {
       alias: 'u',
-      description: '🔼  The minimum tolerated upload speed.',
+      description: '🔼  The minimum tolerated upload speed (Mb/s).',
       type: 'number',
       default: 100,
     },
     'max-cost': {
       alias: 'c',
-      description: '💸  The maximum tolerated monthly cost in SEK.',
+      description: '💸  The maximum tolerated monthly cost (SEK).',
       type: 'number',
       default: 500,
     },
     'max-binding-period': {
       alias: 'b',
-      description: '🔏  The maximum tolerated binding period.',
+      description: '🔏  The maximum tolerated binding period (months).',
       type: 'number',
-      default: 0,
+      default: 1,
+    },
+    'max-cancellation-period': {
+      alias: 'cp',
+      description: '📆  The maximum tolerated cancellation period (months).',
+      type: 'number',
+      default: 1,
     },
     verbose: {
       alias: 'v',
@@ -90,12 +96,11 @@ function getDefaultExcludedProviders(): AvailableProviders[] {
   return [];
 }
 
-const minDownloadSpeed = argv.minDownloadSpeed || 100;
-const minUploadSpeed = argv.minUploadSpeed || 100;
-
-const maxCost = argv.maxCost || 500;
-
-const maxBindingPeriod = argv.maxBindingPeriod || 0;
+const minDownloadSpeed = argv.minDownloadSpeed;
+const minUploadSpeed = argv.minUploadSpeed;
+const maxCost = argv.maxCost;
+const maxBindingPeriod = argv.maxBindingPeriod;
+const maxCancellationPeriod = argv.maxCancellationPeriod;
 
 /**
  * Handles the API request
@@ -183,7 +188,7 @@ async function start(): Promise<void> {
     .filterByMinSpeeds(minDownloadSpeed, minUploadSpeed)
     .excludeProviders(excludedProviders)
     .filterByMaxCost(maxCost)
-    .filterByMaxCancellationPeriod()
+    .filterByMaxCancellationPeriod(maxCancellationPeriod)
     .appendShopUrl(BASE_URLS[shop])
     .internetServices.sort((serviceA, serviceB) => {
       const comparePriceA = serviceA.campaignPrice || serviceA.price;
