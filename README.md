@@ -9,7 +9,7 @@
 
 If you are like me and is always trying to snatch the best campaign (I do it every time the previous campaign expires), but feel the filtering options provided to you are not the best, then this CLI helper tool is for you.
 
-<img src="./assets/itux-shop-assist--help.png" alt="Screenshot of the CLI with the help option" />
+<img src="./assets/itux-shop-assist--demo.svg" alt="Recording of the CLI execution" with="400"/>
 
 **NOTE: This CLI is targeted to users of [itux.se](https://www.itux.se) and [framtidensbredband.se](https://www.framtidensbredband.se) only.**
 
@@ -28,6 +28,9 @@ To get the available options append the `--help` (`-h`) option.
 ```bash
 npx @batista/itux-shop-assist --help
 ```
+
+<img src="./assets/itux-shop-assist--help.png" alt="Screenshot of the CLI with the help option" with="400"/>
+
 
 ---
 
@@ -127,4 +130,16 @@ The `--max-binding-period` (`-b`) option allows you to specify your maximum tole
 
 ```bash
 npx @batista/itux-shop-assist --max-binding-period 1
+```
+
+---
+
+### 📆 Maximum Cancellation Period
+
+How soon can you get out of your contract once you have decided to do so?
+
+The `--max-cancellation-period` (`--cp`) option allows you to specify your maximum tolerated cancellation period (in months).
+
+```bash
+npx @batista/itux-shop-assist --max-cancellation-period 1
 ```
