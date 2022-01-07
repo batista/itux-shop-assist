@@ -25,6 +25,9 @@
     "dist/**/*",
     "assets/**/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/batista/itux-shop-assist.git"
