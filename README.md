@@ -1,9 +1,10 @@
 # Itux / Framtidensbredband Shop Assistant CLI
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/f9c3b4709ea64385b1096331dddb2787)](https://www.codacy.com/gh/batista/itux-shop-assist/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=batista/itux-shop-assist&amp;utm_campaign=Badge_Grade)
 [![build-test action status](https://github.com/batista/itux-shop-assist/workflows/build-test/badge.svg?branch=master)](https://github.com/batista/itux-shop-assist/actions?query=workflow%3Abuild-test+branch%3Amaster)
 [![code-ql action status](https://github.com/batista/itux-shop-assist/workflows/CodeQL/badge.svg?branch=master)](https://github.com/batista/itux-shop-assist/actions?query=workflow%3ACodeQL+branch%3Amaster)
 [![Codacy Security Scan](https://github.com/batista/itux-shop-assist/actions/workflows/codacy-analysis.yml/badge.svg?branch=master)](https://github.com/batista/itux-shop-assist/actions/workflows/codacy-analysis.yml)
+[![Codacy Code Quality](https://app.codacy.com/project/badge/Grade/f9c3b4709ea64385b1096331dddb2787)](https://www.codacy.com/gh/batista/itux-shop-assist/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=batista/itux-shop-assist&amp;utm_campaign=Badge_Grade)
+[![Codacy Coverage](https://app.codacy.com/project/badge/Coverage/f9c3b4709ea64385b1096331dddb2787)](https://www.codacy.com/gh/batista/itux-shop-assist/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=batista/itux-shop-assist&amp;utm_campaign=Badge_Coverage)
 [![license MIT](https://img.shields.io/github/license/batista/itux-shop-assist)](https://github.com/batista/itux-shop-assist/blob/main/LICENSE)
 
 **NOTE: This CLI is targeted to users of [itux.se](https://www.itux.se) and [framtidensbredband.se](https://www.framtidensbredband.se) only.**
