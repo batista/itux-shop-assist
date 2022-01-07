@@ -1,6 +1,6 @@
 {
   "name": "@batista/itux-shop-assist",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Your shop assistant that helps you to select the next internet provider from either itux.se or framtidensbredband.se",
   "main": "lib/main.js",
   "bin": "dist/index.js",
@@ -20,6 +20,9 @@
     "name": "Sergio Batista",
     "email": "dev@se.rg.io"
   },
+  "files": [
+    "dist/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/batista/itux-shop-assist.git"
