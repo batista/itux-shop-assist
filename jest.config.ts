@@ -10,6 +10,7 @@ const jest: Config.InitialOptions = {
     '^.+\\.ts$': 'ts-jest',
   },
   verbose: true,
+  collectCoverageFrom: ['src/**/*.ts', '!src/**/*.{test,d}.ts'],
   collectCoverage: true,
   globals: {
     'ts-jest': {
